@@ -36,3 +36,41 @@ runs/
 *.pem
 *.key
 secrets/
+# Datasets and medical images
+data/
+dataset/
+datasets/
+*.zip
+*.nii
+*.nii.gz
+*.dcm
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.h5
+*.keras
+*.onnx
+checkpoints/
+models/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Experiment and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
