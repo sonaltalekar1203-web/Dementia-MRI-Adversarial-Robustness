@@ -1,0 +1,16 @@
+# Core numerical and visualization libraries
+numpy
+matplotlib
+seaborn
+tqdm
+
+# Machine learning
+scikit-learn
+torch
+torchvision
+
+# Adversarial robustness
+adversarial-robustness-toolbox
+
+# Notebook environment
+ipykernel
