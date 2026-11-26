@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Datasets and medical images
+dataset/
+datasets/
+data/
+*.zip
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Model checkpoints and generated outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+results/generated/
+outputs/
+runs/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+secrets/
